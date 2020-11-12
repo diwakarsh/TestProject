@@ -1,11 +1,11 @@
-MercuryTours\Pages\FlightPage.class
 GUIUtils\configDataProvider.class
-GUIUtils\BrowserFactory.class
 GUIUtils\Listeners.class
 GUIUtils\Misc.class
 GUIUtils\Data_Supplier.class
-GUIBase\Base.class
-testCases\FlightBook.class
 testCases\UsrRegistration.class
 MercuryTours\Pages\RegistrationPage.class
+MercuryTours\Pages\FlightPage.class
+GUIUtils\BrowserFactory.class
+GUIBase\Base.class
+testCases\FlightBook.class
 MercuryTours\Pages\HomePage.class
