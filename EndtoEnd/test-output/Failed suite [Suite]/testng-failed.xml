@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="User_Registration(failed)(failed)">
+    <classes>
+      <class name="testCases.FlightBook">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="initilizeDriver"/>
+          <include name="BookFlight" invocation-numbers="0 1"/>
+          <include name="QuitDriver"/>
+        </methods>
+      </class> <!-- testCases.FlightBook -->
+    </classes>
+  </test> <!-- User_Registration(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Book a Flight(failed)">
+    <classes>
+      <class name="testCases.FlightBook">
+        <methods>
+          <include name="publishReport"/>
+          <include name="setupSuite"/>
+          <include name="initilizeDriver"/>
+          <include name="BookFlight" invocation-numbers="0 1"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- testCases.FlightBook -->
+    </classes>
+  </test> <!-- Book a Flight(failed) -->
+</suite> <!-- Failed suite [Suite] -->
